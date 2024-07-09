@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,39 +8,48 @@
     <link rel="stylesheet" href="./form.css">
     <title>Sign up Form</title>
 </head>
+
 <body>
-    <form>
-        <h2></h2> 
-        <ul>
-            <li>
-                <label for="firstName">FIRST NAME</label>
-                <input type="text" name="firstName" id="firstName" required>
-            </li>
-            <li>
-                <label for="lastName">LAST NAME</label>
-                <input type="text" name="lastName" id="lastName" required>
-            </li>
-            <li>
-                <label for="email">EMAIL</label>
-                <input type="email" name="email" id="email" required>
-            </li>
-            <li>
-                <label for="phone">PHONE</label>
-                <input type="number" name="phone" id="phone" required 
-                pattern="[0-9]{10}|[0-9]{3}[\.- ][0-9]{3}[\.- ][0-9]{4}">
-            </li>
-            <li>
-                <label for="password">PASSWORD</label>
-                <input type="password" name="password" id="password" required>
-            </li>
-            <li>
-                <label for="confirmPassword">CONFIRM PASSWORD</label>
-                <input type="password" name="confirmPassword" id="confirmPassword" required>
-            </li>
-            <li>
-                <button id="createAccount">CREATE ACCOUNT</button>
-            </li>
-        </ul>
-    </form>
+    <div class="container">
+        <div class="background-image"></div>
+        
+        <div class="form-container">
+            <div class="introduction"><h2>This is not a real online service</h2></div>
+            <h2>Let's do this</h2>
+            <form>
+                <ul>
+                    <li>
+                        <label for="firstName">FIRST NAME</label>
+                        <input type="text" name="firstName" id="firstName" required>
+                    </li>
+                    <li>
+                        <label for="lastName">LAST NAME</label>
+                        <input type="text" name="lastName" id="lastName" required>
+                    </li>
+                    <li>
+                        <label for="email">EMAIL</label>
+                        <input type="email" name="email" id="email" required>
+                    </li>
+                    <li>
+                        <label for="phone">PHONE</label>
+                        <input type="number" name="phone" id="phone" required
+                            pattern="[0-9]{10}|[0-9]{3}[\.- ][0-9]{3}[\.- ][0-9]{4}">
+                    </li>
+                    <li>
+                        <label for="password">PASSWORD</label>
+                        <input type="password" name="password" id="password" required>
+                    </li>
+                    <li>
+                        <label for="confirmPassword">CONFIRM PASSWORD</label>
+                        <input type="password" name="confirmPassword" id="confirmPassword" required>
+                    </li>
+                    <li>
+                        <button id="createAccount">CREATE ACCOUNT</button>
+                    </li>
+                </ul>
+            </form>
+        </div>
+    </div>
 </body>
+
 </html>

@@ -1,0 +1,25 @@
+body{
+    margin:0;
+    padding:0;
+    height:100%;
+}
+
+.container{
+    display: flex;
+    height: 100vh;
+}
+
+.background-image{
+    background-image: url(greenleaf.jpg);
+    flex: 1;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.form-container{
+    flex: 1;
+}
+
+.introduction{
+    background: grey;
+}
