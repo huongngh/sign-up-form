@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./form.css">
+    <title>Sign up Form</title>
+</head>
+<body>
+    <form>
+        <h2></h2> 
+        <ul>
+            <li>
+                <label for="firstName">FIRST NAME</label>
+                <input type="text" name="firstName" id="firstName" required>
+            </li>
+            <li>
+                <label for="lastName">LAST NAME</label>
+                <input type="text" name="lastName" id="lastName" required>
+            </li>
+            <li>
+                <label for="email">EMAIL</label>
+                <input type="email" name="email" id="email" required>
+            </li>
+            <li>
+                <label for="phone">PHONE</label>
+                <input type="number" name="phone" id="phone" required 
+                pattern="[0-9]{10}|[0-9]{3}[\.- ][0-9]{3}[\.- ][0-9]{4}">
+            </li>
+            <li>
+                <label for="password">PASSWORD</label>
+                <input type="password" name="password" id="password" required>
+            </li>
+            <li>
+                <label for="confirmPassword">CONFIRM PASSWORD</label>
+                <input type="password" name="confirmPassword" id="confirmPassword" required>
+            </li>
+            <li>
+                <button id="createAccount">CREATE ACCOUNT</button>
+            </li>
+        </ul>
+    </form>
+</body>
+</html>
