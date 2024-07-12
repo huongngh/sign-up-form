@@ -17,9 +17,11 @@ body{
 }
 
 .form-container{
-    flex: 1;
+    flex: 2;
 }
 
 .introduction{
-    background: grey;
+    height:30%;
+    margin:0;
+    background: rgb(228, 226, 226);
 }
