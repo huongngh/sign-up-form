@@ -14,44 +14,54 @@
         <div class="background-image"></div>
         
         <div class="form-container">
-            <div class="introduction">
+            <div class="form-introduction">
                 <h3>Whoever has learned how to listen to trees no longer wants to be a tree. He wants to be nothing except what he is. That is home. That is happiness.</h2>
-                <h3>Sign up <span>now</span> to get started.</h3>
-                <h3>You <span>know</span> you want to.</h3>
+                <h3>Sign up <em>now</em> to get started.</h3>
+                <h3>You <em>know</em> you want to.</h3>
             </div>
-            <form>
-                <h2>Let's do this</h2>
-                <ul>
-                    <li>
-                        <label for="firstName">FIRST NAME</label>
-                        <input type="text" name="firstName" id="firstName" required>
-                    </li>
-                    <li>
-                        <label for="lastName">LAST NAME</label>
-                        <input type="text" name="lastName" id="lastName" required>
-                    </li>
-                    <li>
-                        <label for="email">EMAIL</label>
-                        <input type="email" name="email" id="email" required>
-                    </li>
-                    <li>
-                        <label for="phone">PHONE</label>
-                        <input type="number" name="phone" id="phone" required
-                            pattern="[0-9]{10}|[0-9]{3}[\.- ][0-9]{3}[\.- ][0-9]{4}">
-                    </li>
-                    <li>
-                        <label for="password">PASSWORD</label>
-                        <input type="password" name="password" id="password" required>
-                    </li>
-                    <li>
-                        <label for="confirmPassword">CONFIRM PASSWORD</label>
-                        <input type="password" name="confirmPassword" id="confirmPassword" required>
-                    </li>
-                    <li>
-                        <button id="createAccount">CREATE ACCOUNT</button>
-                    </li>
-                </ul>
-            </form>
+            <div class="form-container">
+                <h3>Let's do this</h3>
+                <div class="left-column">
+                    <form>  
+                        <ul>
+                            <li>
+                                <label for="firstName">FIRST NAME</label>
+                                <input type="text" name="firstName" id="firstName" required>
+                            </li>
+                            <li>
+                                <label for="email">EMAIL</label>
+                                <input type="email" name="email" id="email" required>
+                            </li>
+                            <li>
+                                <label for="password">PASSWORD</label>
+                                <input type="password" name="password" id="password" required>
+                            </li>
+                        </ul>
+                    </form>
+                </div>
+                <div class="right-column">
+                    <form>
+                        <ull>
+                            <li>
+                                <label for="lastName">LAST NAME</label>
+                                <input type="text" name="lastName" id="lastName" required>
+                            </li>
+                            <li>
+                                <label for="phone">PHONE</label>
+                                <input type="number" name="phone" id="phone" required
+                                    pattern="[0-9]{10}|[0-9]{3}[\.- ][0-9]{3}[\.- ][0-9]{4}">
+                            </li>
+                            <li>
+                                <label for="confirmPassword">CONFIRM PASSWORD</label>
+                                <input type="password" name="confirmPassword" id="confirmPassword" required>
+                            </li>
+                        </ull>
+                    </form>
+                </div>
+            <div class="submit">
+                <button id="create-account">Create Account</button>
+                <p>Already have an account? <a href="">Login</a></p>
+            </div>
         </div>
     </div>
 </body>
