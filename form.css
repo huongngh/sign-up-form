@@ -34,28 +34,40 @@ body{
 }
 
 .form-introduction,
-.form-column,
+.form-section,
 .form-submit{
     flex: 1;
 }
 .form-introduction{
     flex: 1;
     background: rgb(228, 226, 226);
-    padding: 2rem;
+    padding: 25px 5px 15px  5px;
 }
 
 em{
     font-style:italic;
 }
 
-.form-column{
+.form-section{
     flex: 1;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     padding: 2rem;
     margin-bottom: 2rem;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-section h3{
+    flex-shrink: 0;
+    color: rgb(84, 82, 82);
+    margin-bottom: 15px;
+}
+
+.form-column{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
 }
 
 .left-column,
@@ -69,21 +81,39 @@ form{
 
 ul{
     list-style-type: none;
-    padding: 0 1rem;
+    padding: 0 5px;
 }
 
 li{
-    margin-bottom: 2rem;
+    margin-bottom: 15px;
 }
 
 label{
     font-weight: bold;
+    font-size: small;
+}
+
+input{
+    width: 60%;
+    border: 2px solid #E5E7EB;
+    margin-bottom: 15px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+input:invalid{
+    border-color: red;
+}
+
+input:focus{
+    border-color:blue;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);;
 }
 
 .form-submit{
     flex: 1;
+    padding: 15px;
 }
-
 
 button {
     background-color: #4CAF50;
