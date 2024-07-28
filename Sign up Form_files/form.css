@@ -48,7 +48,7 @@ body{
     width: 100%;
     height: auto;
     background: black;
-    opacity: 0.7;
+    opacity: 0.6;
     top: 120px;
 }
 
@@ -59,14 +59,14 @@ body{
 }
 
 .logo-image img{
-    max-height: 200px;
+    max-height: 120px;
     width: auto;
 }
 
 .logo-name{
     margin-left: 45px;
     font-family: my-cool-font, sans-serif;
-    font-size: 80px;
+    font-size: 72px;
     color: white;
 }
 
