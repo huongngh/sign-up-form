@@ -27,16 +27,25 @@
                     <form>  
                         <ul>
                             <li>
-                                <label for="firstName">FIRST NAME</label>
-                                <input type="text" name="firstName" id="firstName" required>
+                                <span>
+                                    <label for="firstName">FIRST NAME</label>
+                                    <br>
+                                    <input type="text" name="firstName" id="firstName" required>
+                                </span>
                             </li>
                             <li>
-                                <label for="email">EMAIL</label>
-                                <input type="email" name="email" id="email" required>
+                                <span>
+                                    <label for="email">EMAIL</label>
+                                    <br>
+                                    <input type="email" name="email" id="email" required>
+                                </span>
                             </li>
                             <li>
-                                <label for="password">PASSWORD</label>
-                                <input type="password" name="password" id="password" required>
+                                <span>
+                                    <label for="password">PASSWORD</label>
+                                    <br>
+                                    <input type="password" name="password" id="password" required>
+                                </span>
                             </li>
                         </ul>
                     </form>
@@ -45,17 +54,26 @@
                     <form>
                         <ul>
                             <li>
-                                <label for="lastName">LAST NAME</label>
-                                <input type="text" name="lastName" id="lastName" required>
+                                <span>
+                                    <label for="lastName">LAST NAME</label>
+                                    <br>
+                                    <input type="text" name="lastName" id="lastName" required>
+                                </span>
                             </li>
                             <li>
-                                <label for="phone">PHONE</label>
-                                <input type="number" name="phone" id="phone" required
-                                    pattern="[0-9]{10}|[0-9]{3}[\.- ][0-9]{3}[\.- ][0-9]{4}">
+                                <span>
+                                    <label for="phone">PHONE</label>
+                                    <br>
+                                    <input type="number" name="phone" id="phone" required
+                                        pattern="[0-9]{10}|[0-9]{3}[\.- ][0-9]{3}[\.- ][0-9]{4}">
+                                </span>
                             </li>
                             <li>
-                                <label for="confirmPassword">CONFIRM PASSWORD</label>
-                                <input type="password" name="confirmPassword" id="confirmPassword" required>
+                                <span>
+                                    <label for="confirmPassword">CONFIRM PASSWORD</label>
+                                    <br>
+                                    <input type="password" name="confirmPassword" id="confirmPassword" required>
+                                </span>
                             </li>
                         </ul>
                     </form>
@@ -63,6 +81,7 @@
             </div>
             <div class="form-submit">
                 <button id="create-account">Create Account</button>
+                <br>
                 <p>Already have an account? <a href="#">Login</a></p>
             </div>
         </div>
