@@ -13,6 +13,10 @@
     <div class="container">
         <div class="image-container">
             <img src="./greenleaf.jpg" alt="greenleaf">
+            <div class="logo">
+                <img src="./odin-lined.png">
+                <p class="logo-name">Pangur</p>
+            </div>
         </div> 
         <div class="form-container">
             <div class="form-introduction">
@@ -20,68 +24,69 @@
                 <h3>Sign up <em>now</em> to get started.</h3>
                 <h3>You <em>know</em> you want to.</h3>
             </div>
-            <h3>Let's do this!</h3>
-            <div class="form-column">
-                
-                <div class="left-column">
-                    <form>  
-                        <ul>
-                            <li>
-                                <span>
-                                    <label for="firstName">FIRST NAME</label>
-                                    <br>
-                                    <input type="text" name="firstName" id="firstName" required>
-                                </span>
-                            </li>
-                            <li>
-                                <span>
-                                    <label for="email">EMAIL</label>
-                                    <br>
-                                    <input type="email" name="email" id="email" required>
-                                </span>
-                            </li>
-                            <li>
-                                <span>
-                                    <label for="password">PASSWORD</label>
-                                    <br>
-                                    <input type="password" name="password" id="password" required>
-                                </span>
-                            </li>
-                        </ul>
-                    </form>
-                </div>
-                <div class="right-column">
-                    <form>
-                        <ul>
-                            <li>
-                                <span>
-                                    <label for="lastName">LAST NAME</label>
-                                    <br>
-                                    <input type="text" name="lastName" id="lastName" required>
-                                </span>
-                            </li>
-                            <li>
-                                <span>
-                                    <label for="phone">PHONE</label>
-                                    <br>
-                                    <input type="number" name="phone" id="phone" required
-                                        pattern="[0-9]{10}|[0-9]{3}[\.- ][0-9]{3}[\.- ][0-9]{4}">
-                                </span>
-                            </li>
-                            <li>
-                                <span>
-                                    <label for="confirmPassword">CONFIRM PASSWORD</label>
-                                    <br>
-                                    <input type="password" name="confirmPassword" id="confirmPassword" required>
-                                </span>
-                            </li>
-                        </ul>
-                    </form>
+            
+            <div class="form-section">
+                <h2>Let's do this!</h2>
+                <div class="form-column">
+                    <div class="left-column">
+                        <form>
+                            <ul>
+                                <li>
+                                    <span>
+                                        <label for="firstName">FIRST NAME</label>
+                                        <br>
+                                        <input type="text" name="firstName" id="firstName" required>
+                                    </span>
+                                </li>
+                                <li>
+                                    <span>
+                                        <label for="email">EMAIL</label>
+                                        <br>
+                                        <input type="email" name="email" id="email" required>
+                                    </span>
+                                </li>
+                                <li>
+                                    <span>
+                                        <label for="password">PASSWORD</label>
+                                        <br>
+                                        <input type="password" name="password" id="password" required>
+                                    </span>
+                                </li>
+                            </ul>
+                        </form>
+                    </div>
+                    <div class="right-column">
+                        <form>
+                            <ul>
+                                <li>
+                                    <span>
+                                        <label for="lastName">LAST NAME</label>
+                                        <br>
+                                        <input type="text" name="lastName" id="lastName" required>
+                                    </span>
+                                </li>
+                                <li>
+                                    <span>
+                                        <label for="phone">PHONE</label>
+                                        <br>
+                                        <input type="number" name="phone" id="phone" required
+                                            pattern="[0-9]{10}|[0-9]{3}[\.- ][0-9]{3}[\.- ][0-9]{4}">
+                                    </span>
+                                </li>
+                                <li>
+                                    <span>
+                                        <label for="confirmPassword">CONFIRM PASSWORD</label>
+                                        <br>
+                                        <input type="password" name="confirmPassword" id="confirmPassword" required>
+                                    </span>
+                                </li>
+                            </ul>
+                        </form>
+                    </div>
                 </div>
             </div>
             <div class="form-submit">
                 <button id="create-account">Create Account</button>
-                <br>
                 <p>Already have an account? <a href="#">Login</a></p>
             </div>
         </div>
