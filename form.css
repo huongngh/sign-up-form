@@ -1,22 +1,22 @@
-@font-face{
+@font-face {
     font-family: my-cool-font;
     src: url(./Norse-Bold.otf);
 }
 
-*{
+* {
     box-sizing:border-box;
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     font-family: Arial, Helvetica, sans-serif;
     margin:0;
     padding:0;
     height:100vh;
 }
 
-.container{
+.container {
     display: flex;
     flex-direction: row;
     height: 100vh;
@@ -52,18 +52,18 @@ body{
     top: 120px;
 }
 
-.logo-image{
+.logo-image {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.logo-image img{
+.logo-image img {
     max-height: 200px;
     width: auto;
 }
 
-.logo-name{
+.logo-name {
     margin-left: 45px;
     font-family: my-cool-font, sans-serif;
     font-size: 80px;
@@ -77,7 +77,7 @@ body{
     height: 100%;
 }
 
-.form-introduction{
+.form-introduction {
     flex: 1;
     background: rgb(228, 226, 226);
     display: flex;
@@ -89,7 +89,7 @@ em{
     font-style:italic;
 }
 
-.form-section{
+.form-section {
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -99,43 +99,43 @@ em{
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-.form-section h3{
+.form-section h3 {
     flex-shrink: 0;
     color: rgb(33, 32, 32);
     margin-bottom: 15px;
 }
 
-.form-column{
+.form-column {
     display: flex;
     flex-direction: row;
     gap: 15px;
 }
 
 .left-column,
-.right-column{
+.right-column {
     flex: 1;
 }
 
-form{
+form {
     width: 100%;
 }
 
-ul{
+ul {
     list-style-type: none;
     padding: 0 5px;
 }
 
-li{
+li {
     margin-bottom: 15px;
 }
 
-label{
+label {
     font-weight: bold;
     font-size: small;
     color: rgb(33, 32, 32);;
 }
 
-input{
+input {
     width: 60%;
     border: 2px solid #E5E7EB;
     margin-bottom: 15px;
@@ -155,10 +155,10 @@ input:focus{
 
 #password:valid, 
 #confirmPassword:valid {
-    border-color:#596D48;
+    border-color: #596D48;
 }
 
-.form-submit{
+.form-submit {
     flex: 1;
     padding: 5px 15px;
     margin-bottom: 15px;

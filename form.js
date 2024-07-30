@@ -13,6 +13,6 @@ confirmPassword.addEventListener("input", (event) => {
     if (confirmPassword.value === password.value) {
         confirmPassword.setCustomValidity("");
     } else {
-        confirmPassword.setCustomValidity("!");
+        confirmPassword.setCustomValidity("Passwords do not match!");
     }
 })
