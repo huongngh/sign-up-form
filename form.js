@@ -10,5 +10,9 @@ password.addEventListener("input", (event) => {
 });
 
 confirmPassword.addEventListener("input", (event) => {
-    if (confirmPassword.value === password.value) {}
+    if (confirmPassword.value === password.value) {
+        confirmPassword.setCustomValidity("");
+    } else {
+        confirmPassword.setCustomValidity("!");
+    }
 })
