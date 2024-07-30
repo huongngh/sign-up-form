@@ -85,7 +85,7 @@ body {
     padding: 0 20px 20px;
 }
 
-em{
+em {
     font-style:italic;
 }
 
@@ -160,7 +160,7 @@ input:focus{
 
 .form-submit {
     flex: 1;
-    padding: 5px 15px;
+    padding: 5px 20px;
     margin-bottom: 15px;
 }
 
