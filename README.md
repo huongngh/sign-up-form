@@ -1,1 +1,1 @@
-# sign-up-form
+Project sign-up form for an imaginary service.
